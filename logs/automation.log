@@ -1,0 +1,12 @@
+23:18:10.666 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - *** Starting TC_001_AccountCreationTest ***
+23:18:29.634 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Clicked on SignUp
+23:18:40.472 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Account Creation Page
+23:18:41.135 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Account Password Page
+23:18:41.733 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Verified Code Page
+23:20:12.388 [main] ERROR testCases_ZuduAI.TC_001_AccountCreationTest - Test Failed
+23:24:23.939 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - *** Starting TC_001_AccountCreationTest ***
+23:24:25.302 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Clicked on SignUp
+23:24:34.251 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Account Creation Page
+23:24:35.282 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Account Password Page
+23:24:35.929 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Verified Code Page
+23:26:06.695 [main] ERROR testCases_ZuduAI.TC_001_AccountCreationTest - Test Failed
