@@ -10,3 +10,19 @@
 23:24:35.282 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Account Password Page
 23:24:35.929 [main] INFO  testCases_ZuduAI.TC_001_AccountCreationTest - Verified Code Page
 23:26:06.695 [main] ERROR testCases_ZuduAI.TC_001_AccountCreationTest - Test Failed
+11:56:37.871 [main] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - *** Starting TC_001_AccountCreationTest ***
+11:56:39.380 [main] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - Clicked on SignUp
+15:05:55.041 [TestNG-test-ChromeTest-1] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - *** Starting TC_001_AccountCreationTest ***
+15:05:56.549 [TestNG-test-ChromeTest-1] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - Clicked on SignUp
+15:10:13.092 [TestNG-tests-1] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - *** Starting TC_001_AccountCreationTest ***
+15:10:14.436 [TestNG-tests-1] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - Clicked on SignUp
+15:10:50.222 [TestNG-tests-2] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - *** Starting TC_001_AccountCreationTest ***
+15:10:56.741 [TestNG-tests-2] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - Clicked on SignUp
+15:14:14.143 [TestNG-tests-2] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - *** Starting TC_001_AccountCreationTest ***
+15:14:14.142 [TestNG-tests-1] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - *** Starting TC_001_AccountCreationTest ***
+15:14:16.075 [TestNG-tests-1] INFO  testCases_ZuduAI.signUp.TC_001_AccountCreationTest - Clicked on SignUp
+15:14:45.609 [TestNG-tests-2] ERROR testCases_ZuduAI.signUp.TC_001_AccountCreationTest - Test Failed
+18:01:42.881 [TestNG-tests-1] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - *** Start TC_001_LoginTest ***
+18:01:44.806 [TestNG-tests-1] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter E-mail Id and Click Continue
+18:01:45.626 [TestNG-tests-1] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter Password and Click Continue
+18:01:46.494 [TestNG-tests-1] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - *** LogIn Successful ***

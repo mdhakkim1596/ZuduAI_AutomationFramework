@@ -1,4 +1,4 @@
-package pageObject_ZuduAI;
+package pageObject_ZuduAI.signUp;
 
 import java.time.Duration;
 import java.util.Scanner;
@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import pageObject_ZuduAI.common.BasePage;
 
 public class VerificationCodePage extends BasePage {
 	

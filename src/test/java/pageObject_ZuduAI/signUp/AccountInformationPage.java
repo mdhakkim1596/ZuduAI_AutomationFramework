@@ -1,8 +1,10 @@
-package pageObject_ZuduAI;
+package pageObject_ZuduAI.signUp;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import pageObject_ZuduAI.common.BasePage;
 
 public class AccountInformationPage extends BasePage {
 	

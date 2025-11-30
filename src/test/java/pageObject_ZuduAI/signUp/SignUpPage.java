@@ -1,12 +1,14 @@
-package pageObject_ZuduAI;
+package pageObject_ZuduAI.signUp;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage extends BasePage {
+import pageObject_ZuduAI.common.BasePage;
 
-	public HomePage(WebDriver driver) {
+public class SignUpPage extends BasePage {
+
+	public SignUpPage(WebDriver driver) {
 		super(driver);
 	}
 

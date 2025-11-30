@@ -1,17 +1,17 @@
-package testCases_ZuduAI;
+package testCases_ZuduAI.signUp;
 
 import java.util.Scanner;
 
 import org.testng.annotations.Test;
 
-import pageObject_ZuduAI.AccountCreationPage;
-import pageObject_ZuduAI.AccountInformationPage;
-import pageObject_ZuduAI.AccountPasswordPage;
-import pageObject_ZuduAI.HomePage;
-import pageObject_ZuduAI.VerificationCodePage;
+import pageObject_ZuduAI.signUp.AccountCreationPage;
+import pageObject_ZuduAI.signUp.AccountInformationPage;
+import pageObject_ZuduAI.signUp.AccountPasswordPage;
+import pageObject_ZuduAI.signUp.SignUpPage;
+import pageObject_ZuduAI.signUp.VerificationCodePage;
 import testBase_ZuduAI.BaseClass;
 
-public class TC_001_AccountCreationTest extends BaseClass {
+public class TC_001_SignUpTest extends BaseClass {
 	
 	Scanner sc = new Scanner(System.in);
 	@Test
@@ -20,7 +20,7 @@ public class TC_001_AccountCreationTest extends BaseClass {
 		try {
 			
 		logger.info("*** Starting TC_001_AccountCreationTest ***");
-		HomePage hp = new HomePage(driver);
+		SignUpPage hp = new SignUpPage(driver);
 		hp.click_SignUp();
 		
 		logger.info("Clicked on SignUp");
