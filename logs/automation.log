@@ -26,3 +26,15 @@
 18:01:44.806 [TestNG-tests-1] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter E-mail Id and Click Continue
 18:01:45.626 [TestNG-tests-1] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter Password and Click Continue
 18:01:46.494 [TestNG-tests-1] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - *** LogIn Successful ***
+23:18:54.191 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - *** Start TC_001_LoginTest ***
+23:19:10.865 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter E-mail Id and Click Continue
+23:19:18.565 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter Password and Click Continue
+23:19:39.996 [main] ERROR testCases_ZuduAI.logIn.TC_001_LoginTest - *** Test Failed ***
+23:20:00.772 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - *** Start TC_001_LoginTest ***
+23:20:02.358 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter E-mail Id and Click Continue
+23:20:03.181 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter Password and Click Continue
+23:20:33.252 [main] ERROR testCases_ZuduAI.logIn.TC_001_LoginTest - *** Test Failed ***
+23:31:40.815 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - *** Start TC_001_LoginTest ***
+23:31:42.067 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter E-mail Id and Click Continue
+23:31:42.940 [main] INFO  testCases_ZuduAI.logIn.TC_001_LoginTest - Enter Password and Click Continue
+23:32:13.006 [main] ERROR testCases_ZuduAI.logIn.TC_001_LoginTest - *** Test Failed ***

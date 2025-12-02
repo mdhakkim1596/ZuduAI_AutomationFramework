@@ -5,7 +5,7 @@
     <classes>
       <class name="testCases_ZuduAI.logIn.TC_001_LoginTest">
         <methods>
-          <include name="main"/>
+          <include name="test_Login"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>

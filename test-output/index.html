@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-ZuduAISuite" class="navigator-link ">
-                    <span>C:\Users\Admin\eclipse-workspace-2025\Zudu_AI_Automation_Sample\crossbrowsertest.xml</span>
+                    <span>C:\Users\Admin\eclipse-workspace-2025\Zudu_AI_Automation_Sample\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -136,19 +136,21 @@
         </div> <!-- panel ZuduAISuite -->
         <div panel-name="test-xml-ZuduAISuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\eclipse-workspace-2025\Zudu_AI_Automation_Sample\crossbrowsertest.xml</span>
+            <span class="header-content">C:\Users\Admin\eclipse-workspace-2025\Zudu_AI_Automation_Sample\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;ZuduAISuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+&lt;suite name=&quot;ZuduAISuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ZuduAITest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases_ZuduAI.logIn.TC_001_LoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;/test&gt; &lt;!-- ZuduAITest --&gt;
 &lt;/suite&gt; &lt;!-- ZuduAISuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,7 +162,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ChromeTest (1 class)</span>
+                <span class="test-name">ZuduAITest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_Login')
 data.setCell(0, 2, 'testCases_ZuduAI.logIn.TC_001_LoginTest')
-data.setCell(0, 3, 3673);
+data.setCell(0, 3, 32217);
 window.suiteTableData['ZuduAISuite']= { tableData: data, tableDiv: 'times-div-ZuduAISuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-ZuduAISuite">
               </div> <!-- times-div-ZuduAISuite -->
             </div> <!-- times-div -->
@@ -223,16 +225,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases_ZuduAI.logIn.TC_001_LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(chrome)</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Login</span>
-                <span class="method-start">14093 ms</span>
+                <span class="method-start">9869 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17781 ms</span>
+                <span class="method-start">42126 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
